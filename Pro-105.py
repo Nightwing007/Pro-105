@@ -1,7 +1,7 @@
 import math
 import csv
-
-with open("data.csv",newline="") as f :
+location = input("Enter file location :- ")
+with open(location,newline="") as f :
   reader = csv.reader(f)
   fileData = list(reader)
 
